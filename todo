@@ -1,0 +1,6 @@
+COPY app app/
+COPY bin bin/
+COPY src src/
+COPY web web/
+
+CMD ["docker-app-start"]
