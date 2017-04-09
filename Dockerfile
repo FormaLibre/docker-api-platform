@@ -2,6 +2,7 @@ FROM php:7.1-fpm-alpine
 
 RUN apk add --no-cache --virtual .persistent-deps \
 		git \
+		grep \
 		icu-libs \
 		zlib
 
